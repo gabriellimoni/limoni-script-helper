@@ -1,0 +1,23 @@
+{
+  "name": "limoni-script-helpers",
+  "version": "0.0.2",
+  "description": "My toolkit for writing scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "scripts",
+    "toolkit"
+  ],
+  "author": "Gabriel Limoni",
+  "license": "MIT",
+  "dependencies": {
+    "excel-date-to-js": "^1.0.6",
+    "json2csv": "^5.0.1",
+    "xlsx": "^0.16.6"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
