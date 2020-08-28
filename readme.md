@@ -24,8 +24,8 @@ await sleep(2000) // 2s
 
 ## Features
 
-- `xlsx2json`: Imports the first Excel tab from a XLSX file into a JSON array. Each item of the array is an object with the first row as object keys.
-- `json2csv`: Exports a JSON array into a CSV file.
+- `xlsx2json`: Imports the first Excel tab from a XLSX file into a JSON array. Each item of the array is an object with the first row as object keys;
+- `json2csv`: Exports a JSON array into a CSV file;
 - `getDateFromExcelDateNumber`: Format a excel number date (eg. 35384) to javascript Date;
 - `getTimestampString`: Get the current timestamp string (eg: 2020-8-28 9-14-10). Useful for output file names;
 - `log`: Log data into file and console if needed;
